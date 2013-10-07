@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @nguoi_dung.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @nguoi_dung.email %>
+</p>
+
+
+<%= link_to 'Edit', edit_nguoi_dung_path(@nguoi_dung) %> |
+<%= link_to 'Back', nguoi_dungs_path %>
