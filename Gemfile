@@ -8,7 +8,7 @@ gem 'rails', '3.1.4'
 gem 'sqlite3'
 gem 'execjs'
 gem 'therubyracer'
-
+gem 'rspec-rails', '2.13.1'
 gem 'pg'
 gem 'rb-readline'
 
