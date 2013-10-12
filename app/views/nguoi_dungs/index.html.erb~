@@ -1,4 +1,3 @@
-<% provide(:title, 'Nguoi dung') %>
 <h1>Listing nguoi_dungs</h1>
 
 <table>
