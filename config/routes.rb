@@ -1,10 +1,8 @@
 DemoApp::Application.routes.draw do
-  get "users/new"
-
-  #get "static_pages/home"
-  #get "static_pages/contact"
-  #get "static_pages/help"
-  #get "static_pages/about"
+  get "static_pages/home"
+  get "static_pages/contact"
+  get "static_pages/help"
+  get "static_pages/about"
   #root  'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/home',    to: 'static_pages#home',    via: 'get'
